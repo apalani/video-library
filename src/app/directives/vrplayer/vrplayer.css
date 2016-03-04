@@ -1,0 +1,24 @@
+.select-none {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+video {
+    background: #000000;
+}
+
+.custom-controls {
+    background: #333333;
+}
+
+.custom-controls .btn-link {
+    color: #999999;
+}
+
+.custom-controls .glyphicon {
+    font-size: 20px;
+}
+
+.custom-controls .btn-link:hover {
+    color: #ffffff;
+}

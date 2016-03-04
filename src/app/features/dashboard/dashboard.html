@@ -1,0 +1,18 @@
+<navigation page="{{dashboard.page}}"></navigation>
+
+<div class="page-header">
+    <h1>{{dashboard.content.heading}}</h1>
+    <small>{{dashboard.content.subContent}}</small>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6" ng-repeat="video in dashboard.content.videos">
+            <vrplayer url="{{video.url}}"></vrplayer>
+            <div class="mvxl">
+                <h4 class="media-heading">{{video.title}}</h4>
+                <small>{{video.description}}</small>
+            </div>
+        </div>
+    </div>
+</div>

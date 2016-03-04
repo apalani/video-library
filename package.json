@@ -1,0 +1,52 @@
+{
+  "name": "angular-app",
+  "version": "1.0.0",
+  "description": "Angular App",
+  "scripts": {
+    "build": "rimraf dist && webpack --env prod --bail --progress --profile",
+    "server": "webpack-dev-server --env dev --history-api-fallback --inline --progress",
+    "start": "npm run server",
+    "test": "karma start --env test",
+    "test-watch": "karma start -env test --auto-watch --no-single-run",
+    "lint": "./node_modules/.bin/eslint . --ext src/**/*.js"
+  },
+  "author": "Anbazhagan Palani",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-mocks": "^1.5.0",
+    "autoprefixer": "^6.0.3",
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^5.0.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "copy-webpack-plugin": "^1.1.1",
+    "css-loader": "^0.23.0",
+    "eslint": "^2.2.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^2.7.1",
+    "isparta-instrumenter-loader": "^1.0.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.14",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs2-launcher": "^0.5.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.24",
+    "karma-webpack": "^1.7.0",
+    "node-libs-browser": "^1.0.0",
+    "null-loader": "^0.1.1",
+    "postcss-loader": "^0.8.0",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^2.0.7-beta",
+    "webpack-dev-server": "^2.0.0-beta"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "jwt-decode": "^1.5.1"
+  }
+}

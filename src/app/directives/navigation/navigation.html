@@ -1,0 +1,30 @@
+<header class="ng-cloak">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Video Library</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right mrxl">
+                <li ng-class="{ active: navigation.isActive('home')}">
+                    <a href="/">
+                        <i class="glyphicon glyphicon-home"> Home</i>
+                    </a>
+                </li>
+                <li ng-class="{ active: navigation.isActive('dashboard')}">
+                    <a href="/dashboard">
+                        <i class="glyphicon glyphicon-dashboard"> Dashboard</i>
+                    </a>
+                </li>
+                <li ng-class="{ active: navigation.isActive('login')}">
+
+                    <a href="/login" ng-if="!navigation.isLoggedIn()">
+                        <i class="glyphicon glyphicon-log-in"> Login</i>
+                    </a>
+                    <a href="" ng-click="navigation.logout()" ng-if="navigation.isLoggedIn()">
+                        <i class="glyphicon glyphicon-log-out"> Logout</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
