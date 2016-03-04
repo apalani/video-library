@@ -1,7 +1,7 @@
 {
-  "name": "angular-app",
+  "name": "video-library",
   "version": "1.0.0",
-  "description": "Angular App",
+  "description": "Video Library",
   "scripts": {
     "build": "rimraf dist && webpack --env prod --bail --progress --profile",
     "server": "webpack-dev-server --env dev --history-api-fallback --inline --progress",
