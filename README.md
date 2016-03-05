@@ -18,7 +18,7 @@ $ npm install
 All scripts are run with `npm run [script]`, for example: `npm run dev`. 
 
 * `build` - generate a minified build to dist folder
-* `server` - start development server, try it by opening `http://localhost:8080/`
+* `server` - start development server, try it by opening [http://localhost:8080/](http://localhost:8080/)
 * `start` - `npm start` will starts dev server
 * `test` - run all tests
 * `test-watch` - continuously run unit tests watching for changes
