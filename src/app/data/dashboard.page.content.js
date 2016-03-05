@@ -22,8 +22,8 @@ const DashboardPageContent = {
             description: 'ulputate ac magnis a auctor.Adipiscing mi netus condimentum a etiam duis libero a etiam in nisi a eu parturient ege'
         },
         {
-            url: 'https://upload.wikimedia.org/wikipedia/en/d/dc/Pac-Man_Atari_2600_footage.ogv',
-            title: 'Pac Man',
+            url: 'https://media.w3.org/2010/05/sintel/trailer.mp4',
+            title: 'Sintel Trailer',
             description: 'accumsan convallis consectetur a phasellus sociis  faucibus morbi vestibulum suspendisse'
         }
     ]

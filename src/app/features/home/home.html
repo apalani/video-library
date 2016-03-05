@@ -5,4 +5,15 @@
     <small>{{home.content.subContent}}</small>
 </div>
 
-<vrplayer url="{{home.content.videoUrl}}"></vrplayer>
+<cubenado count="home.count" speed="home.speed"></cubenado>
+
+<div class="col-xs-4 pull-right ng-cloak clearfix">
+    <fieldset class="form-group pull-left">
+        <label for="numberOfCubes">Count [{{home.count}}]</label>
+        <input type="range" id="numberOfCubes" name="count" min="10" max="10000" step="10" ng-model="home.count" />
+    </fieldset>
+    <fieldset class="form-group pull-right">
+        <label for="randomness">Speed [{{home.speed}}]</label>
+        <input type="range" id="randomness" name="speed" min="1" max="20" step="1" ng-model="home.speed" />
+    </fieldset>
+</div>

@@ -11,7 +11,7 @@ export default class HomeController {
 
         // set count and speed model defaults
         this.count = 1000;
-        this.speed = 1.5;
+        this.speed = 3;
     }
 }
 
