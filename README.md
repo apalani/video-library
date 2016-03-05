@@ -11,6 +11,7 @@ To use it, just clone this repo and install the npm dependencies:
 $ git clone https://github.com/apalani/video-library.git video-app
 $ cd video-app
 $ npm install
+$ npm start
 ```
 
 ## Scripts
